@@ -1,0 +1,19 @@
+
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;color:#0b132b;background:#f6f9fc}
+header{background:#0ea5e9;color:#fff;padding:16px 20px}
+h1{margin:0 0 4px 0;font-size:22px}
+.subtitle{margin:0;opacity:.9}
+.controls{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
+button,select{padding:10px 12px;border-radius:10px;border:none}
+button{background:#fff;color:#0ea5e9;font-weight:600}
+select{background:#e0f2fe;color:#0b132b}
+main{padding:16px;display:grid;gap:12px}
+.card{background:#fff;border-radius:16px;padding:14px 14px 12px;box-shadow:0 4px 12px rgba(0,0,0,.06)}
+.card h3{margin:0 0 6px 0;font-size:16px}
+.card p{margin:0;color:#475569;font-size:14px;line-height:1.45}
+.tag{display:inline-block;background:#e2e8f0;color:#334155;border-radius:999px;padding:4px 10px;margin-top:6px;font-size:12px}
+.notes,.recipes{padding:0 16px 16px}
+.notes h2,.recipes h2{font-size:18px}
+details{background:#fff;border-radius:12px;padding:10px 12px;margin:8px 0;box-shadow:0 4px 12px rgba(0,0,0,.06)}
+footer{padding:16px;color:#475569;font-size:13px}
